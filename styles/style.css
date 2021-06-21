@@ -169,5 +169,12 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container .password-box button:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 /*# sourceMappingURL=style.css.map */

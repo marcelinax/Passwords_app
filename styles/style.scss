@@ -122,6 +122,10 @@
       color: white;
       font-weight: 600;
       cursor: pointer;
+      transition: 0.5s all;
+      &:hover {
+        transform: scale(0.9);
+      }
     }
   }
 }
