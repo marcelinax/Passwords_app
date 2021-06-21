@@ -53,6 +53,8 @@ const initCheckPassword = () => {
 const changeCheckPasswordButton = () => {
   console.log(percentages);
   color.classList.value = "";
+  color.style.width = `${+percentages}%`;
+  console.log(`${+percentages}%`);
   if (percentages <= 50) {
     color.classList.add("green");
   }

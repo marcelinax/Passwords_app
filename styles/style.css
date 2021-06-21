@@ -88,17 +88,14 @@
 
 .container .password-box .check-password .green {
   background-color: #31af91;
-  width: 33.33%;
 }
 
 .container .password-box .check-password .yellow {
   background-color: #ffff24;
-  width: 66.66%;
 }
 
 .container .password-box .check-password .red {
   background-color: red;
-  width: 100%;
 }
 
 .container .password-box button {
